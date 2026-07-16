@@ -1,23 +1,33 @@
 # SaaS Backend Foundation
 
-A production-minded backend foundation built with FastAPI, PostgreSQL, SQLAlchemy, and JWT authentication.
+A backend foundation built with FastAPI, PostgreSQL, and SQLAlchemy while learning production backend architecture.
+
+## Screenshots
+
+## Screenshot
+
+![Swagger UI](screenshots/swagger.png)
+
+## What it includes
+
+- User registration and authentication
+- JWT-based authentication
+- Password hashing with Argon2
+- User and Note relationships
+- CRUD operations for notes
+- PostgreSQL database integration
+- Alembic database migrations
+- Environment-based configuration
 
 ## Tech Stack
 
+- Python
 - FastAPI
 - PostgreSQL
-- SQLAlchemy ORM
+- SQLAlchemy
+- Alembic
 - Pydantic
-- JWT Authentication
-- Argon2 Password Hashing
-
-## Features
-
-✅ User registration  
-✅ Secure password hashing  
-✅ JWT-based authentication  
-✅ Protected user profile  
-✅ User-owned notes system  
-✅ PostgreSQL database integration  
+- JWT
+- Argon2
 
 ## Project Structure
